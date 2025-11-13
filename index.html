@@ -11,13 +11,13 @@ body{margin:0;background:#f5f6f8;font-family:"PingFang SC",-apple-system,BlinkMa
 .photo-wrap{display:flex;justify-content:center;padding:28px 0 8px;background:#fff;}
 .photo{width:110px;height:140px;object-fit:cover;}
 .info{border-top:1px solid #e3e6ec;}
-.row{display:flex;align-items:center;padding:10px 24px;border-bottom:1px solid #e3e6ec;font-size:14px;gap:12px;}
+.row{display:flex;align-items:center;padding:10px 24px;border-bottom:1px solid #e3e6ec;font-size:14px;gap:12px;flex-wrap:nowrap;}
 .row:last-child{border-bottom:none;}
-.label{width:auto;min-width:unset;font-size:14px;}
-.value{flex:none;font-size:14px;text-align:left;}
+.label{width:120px;min-width:120px;font-size:14px;}
+.value{flex:1;font-size:14px;text-align:left;}
 .after-fill{flex:1;background:#f0f0f0;}
 .footer{background:#fff;text-align:center;padding:18px 0;font-size:14px;border-top:1px solid #e3e6ec;color:#000;}
-@media(max-width:600px){.row{flex-direction:column;align-items:flex-start;gap:4px;padding:10px 16px;}.label{width:100%;min-width:auto;}}
+@media(max-width:600px){.align-items:flex-start;gap:4px;padding:10px 16px;}.label{width:100%;min-width:auto;}}
 </style>
 </head>
 <body>
